@@ -1,0 +1,280 @@
+/* css of toolbar*/
+.mat-toolbar {
+    top: 0px;
+    left: 270px;
+    width: 1495px;
+    height: 67px;
+    /* UI Properties */
+    background: #303132 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+/*css for logo*/
+.mat-card-lg-image {
+    top: 15px;
+    left: 30px;
+    width: 78px;
+    height: 36px;
+    /* UI Properties */
+    opacity: 1;
+}
+
+
+.digi {
+    top: -3px;
+    left: 0.115234375px;
+    width: 40px;
+    height: 27px;
+    margin: -26px 145px -19px;
+    /* UI Properties */
+    text-align: center;
+    font: normal normal bold 22px/27px Century Gothic;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+}
+
+.Docq {
+    top: 0px;
+    left: 40px;
+    width: 64px;
+    height: 27px;
+    margin: -25px 185px -19px;
+    text-align: center;
+    font: normal normal normal 22px/27px Century Gothic;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+}
+
+/*css for button*/
+.mat-button {
+    color: #FFFFFF;
+}
+
+.lay_out {
+    margin: 20px 21px -2px;
+}
+
+#icon {
+    padding-left: 20px;
+    padding-top: 10px;
+    color: #A3B8BF;
+}
+
+.Layout {
+    top: 27px;
+    left: 342px;
+    width: 123px;
+    height: 21px;
+    /* UI Properties */
+    text-align: left;
+    font: normal normal bold 16px/21px Roboto;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+    margin: -31px 331px -24px;
+}
+
+
+.Document {
+    top: 27px;
+    left: 549px;
+    width: 126px;
+    height: 21px;
+    /* UI Properties */
+    text-align: left;
+    font: normal normal medium 16px/21px Roboto;
+    letter-spacing: 0px;
+    color: #CECECE;
+    opacity: 1;
+    margin: -39px 539px 20px;
+}
+
+#settings {
+    top: -8px;
+    left: 250px;
+    width: 14px;
+    height: 14px;
+    margin: -22px 30px 12px;
+}
+
+#doc_import {
+    top: 31px;
+    top: -9px;
+    left: 383px;
+    width: 25px;
+    height: 5px;
+    margin: -25px 100px 12px;
+}
+
+#new_layout {
+    top: 154px;
+    left: 1218px;
+    width: 175px;
+    height: 39px;
+    margin-top: -43px;
+    margin-left: 1288px;
+    margin-bottom: 25px;
+
+    /* UI Properties */
+    background: var(--unnamed-color-177e89) 0% 0% no-repeat padding-box;
+    background: #177E89 0% 0% no-repeat padding-box;
+    border-radius: 4px;
+    opacity: 1;
+}
+
+div_class {
+    border-radius: 12px solid #28c9ac;
+    width: 1480px;
+}
+
+.mat-card-image {
+    top: 242px;
+    left: 690px;
+    width: 34px;
+    height: 43px;
+    /* UI Properties */
+    background: transparent url('src\assets\images\Dashboard\invo.jpg');
+    opacity: 1;
+}
+
+.mat-card-avatar {
+    /* Layout Properties */
+    top: 15px;
+    left: 1295px;
+    width: 38px;
+    height: 38px;
+    /* UI Properties */
+    background: transparent url('src\assets\images\Dashboard\Ellipse 65.jpg') 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+    border: 1px solid #FFFFFF;
+    opacity: 1;
+}
+
+.h3 {
+    top: 115px;
+    left: 60px;
+    width: 64px;
+    height: 24px;
+    /* UI Properties */
+    text-align: left;
+    font: normal normal medium 18px/24px Roboto;
+    letter-spacing: 0px;
+    color: #333333;
+    opacity: 1;
+}
+
+.mat-card-title {
+    top: 293px;
+    left: 143px;
+    width: 78px;
+    height: 21px;
+    /* UI Properties */
+    color: var(--unnamed-color-177e89);
+    text-align: center;
+    font: normal normal bold 16px/14px Roboto;
+    letter-spacing: 0.8px;
+    color: #177E89;
+    opacity: 1;
+}
+
+.mat-card {
+    transition: box-shadow 280ms cubic-bezier(0.4, 0, 0.2, 1);
+    display: block;
+    position: relative;
+    padding: 11px;
+    border-radius: 8px;
+    border: 1px solid #879EAA;
+    margin: -8px 10px 15px;
+    top: -12px;
+}
+
+.mat-card:hover {
+    transform: scale(1.1);
+    transition-duration: 0.5s;
+    box-shadow: 7px 10px rgba(0, 0, 0, 0.2);
+    border: 1px solid #879EAA;
+    border-radius: 8px;
+}
+
+.mat-card-image {
+    top: 451px;
+    left: 112px;
+    width: 50px;
+    height: 58px;
+    /* UI Properties */
+    background: transparent url('src\assets\images\Dashboard\Group 18025@2x.jpg') 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+.mat-card-md-image {
+    top: 451px;
+    left: 425px;
+    width: 40px;
+    height: 32px;
+    /* UI Properties */
+    background: transparent url('src\assets\images\Dashboard\Group 15501@2x.jpg') 0% 0% no-repeat padding-box;
+    opacity: 1;
+    margin: 3px 7px 0px;
+}
+
+.mat-card-sm-image {
+    top: 451px;
+    left: 212px;
+    width: 40px;
+    height: 32px;
+    /* UI Properties */
+    background: transparent url('src\assets\images\Dashboard\Group 15502@2x.jpg') 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+New Layout {
+    top: 163px;
+    left: 1285px;
+    width: 74px;
+    height: 19px;
+    /* UI Properties */
+    text-align: center;
+    font: normal normal medium 14px/24px Roboto;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+
+th {
+    text-align: center;
+    font: normal normal medium 14px/14px Roboto;
+    letter-spacing: 0.7px;
+    color: #21282F;
+    opacity: 1;
+}
+
+td {
+    text-align: center;
+    font: normal normal normal 12px/14px Roboto;
+    letter-spacing: 0.6px;
+    color: #86899A;
+    opacity: 1;
+}
+
+#cont_ainer {
+    display: block;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    width: 34px;
+    height: 43px;
+
+}
+
+#invo_ice {
+    margin: -16px -40px -16px;
+}
+
+#title {
+    display: block;
+    position: relative;
+    top: 7%;
+    left: 60%;
+    width: fit-content;
+    margin: 19px 3px 11px;
+}

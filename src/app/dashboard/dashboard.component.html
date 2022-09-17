@@ -1,0 +1,119 @@
+<mat-toolbar>
+  <mat-toolbar-row fxLayoutAlign="space-between center">
+
+    <div>
+      <!--Quest logo-->
+      <button mat-button>
+        <span> <img mat-card-lg-image src="../../assets/images/Dashboard/Group 16004@2x.png" alt="logo"></span>
+      </button>
+
+
+      <h3 class="digi">digi</h3>
+      <h3 class="Docq">DocQ</h3>
+
+      <!--setting button for layout configure-->
+      <button mat-button type="click" id="settings"><span class="material-icons">settings</span> </button>
+      <h3 class="Layout">Layout Configure</h3>
+
+
+      <!--button for document import-->
+      <button mat-button type="new" id="doc_import"> <span class="material-icons">receipt_long </span></button>
+      <h3 class="Document">Document Import</h3>
+    </div>
+
+    <div>
+      <!--button for notification-->
+      <button mat-button> <span class="material-icons">notifications</span></button>
+      <!--button for profile image-->
+      <button mat-button>
+        <span><img mat-card-avatar src="../../assets/images/Dashboard/Ellipse 65.jpg" alt="logo"></span>
+      </button>
+
+      <!--button for see name of login user-->
+      <button mat-button routerLink="/samual J">samual</button>
+
+    </div>
+
+  </mat-toolbar-row>
+</mat-toolbar>
+
+
+<div container="box">
+  <div class="div_class">
+    <h3 class="lay_out">Layouts</h3>
+
+    <span class="material-icons" id="icon">list </span>
+    &nbsp;&nbsp;
+
+    <!--button to create new layout-->
+    <a routerLink="/layout"><button type="submit" id="new_layout" class="btn btn-primary"> + &nbsp; &nbsp;New
+        Layout</button></a>
+
+
+
+    <!--div for card-->
+
+    <div fxLayout="row wrap" fxLayoutGap="16px grid">
+
+      <!--div to fix size of card-->
+      <div fxFlex="20%" *ngFor="let dash of data;let i = index">
+
+        <mat-card class="mat-elevation-z4">
+          &nbsp;&nbsp;
+
+          <div class="image-container" id="cont_ainer">
+
+            <!--image for invoice-->
+            <img mat-card-image src="./../assets/images/Dashboard/invo.jpg" id="invo_ice">
+          </div>
+
+          <!--title inside the card-->
+          <mat-card-header>
+            <mat-card-title id="title"> Layout {{dash.layout_no }}</mat-card-title>
+          </mat-card-header>
+
+          <mat-card-content>
+
+
+            <!--table inside the card-->
+            <tr>
+              <th> 6</th>
+              <th>&nbsp; &nbsp;</th>
+              <th>9</th>
+            </tr>
+            <tr>
+              <td>No. of Documents</td>
+              <td> &nbsp;</td>
+              <td>No. of Pages</td>
+            </tr>
+            <br>
+            <tr>
+              <th>Auto</th>
+              <th>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</th>
+              <th>31/05/2022</th>
+            </tr>
+            <tr>
+              <td>Mode selected</td>
+              <td> &nbsp;</td>
+              <td>Date Created</td>
+            </tr>
+            <hr>
+
+          </mat-card-content>
+          &nbsp;&nbsp;
+
+
+          <!--serach image-->
+          <a (click)="search()"><img mat-card-md-image src="./../assets/images/Dashboard/Group 18025@2x.jpg"></a>
+          &nbsp;
+          <!--edit image-->
+          <a (click)="edit()"><img mat-card-md-image src="./../assets/images/Dashboard/Group 15501@2x.jpg"></a>
+          &nbsp;
+          <!--delete image-->
+          <a (click)="delete()"><img mat-card-md-image src="./../assets/images/Dashboard/Group 15502@2x.jpg"></a>
+        </mat-card>
+
+      </div>
+    </div>
+  </div>
+</div>
